@@ -1,0 +1,749 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+  <body>
+        <nav class="navbar navbar-expand-lg fixed-top" style="background-color: white">
+            <div class="container-fluid">
+                <a href="index.html"><img src="img/logo.png" alt="" width="125" height="75"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active fw-bolder" aria-current="page" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active fw-bolder" aria-current="page" role="button" data-bs-toggle="dropdown" href="product.html">SHOP BY CATEGORY</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="bestSeller.html" >
+                                        BestSeller
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="power.html">
+                                        Gaming Laptops
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="plumbing.html">
+                                        Premium Laptops
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="tools.html">
+                                        Mainstream Laptops
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active fw-bolder" aria-current="page" role="button" data-bs-toggle="dropdown" href="product.html">SHOP BY BRANDS</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="brandAcer.html" >
+                                        Acer
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="power.html">
+                                        Asus
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="plumbing.html">
+                                        Chuwi
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="tools.html">
+                                        Dell
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="locks.html">
+                                        Gateway
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="hardware.html">
+                                        Gigabyte
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="fencing.html">
+                                        HP
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="water.html">
+                                        Lenovo
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active fw-bolder" aria-current="page" href="about.html">ABOUT US</a>
+                        </li>
+                    </ul>
+                    <button class="border-0 bg-transparent">    
+                        <a href="#" class="text-dark fw-bolder" style="font-size: 20PX;" data-bs-toggle="modal" data-bs-target="#logIn"><i class="fa-solid fa-user"></i></a>
+                    </button>
+                    <button class="border-0 bg-transparent">  
+                        <a href="#" class="text-dark fw-bolder" style="font-size: 20PX;"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </button>         
+                </div>
+            </div>
+        </nav>
+        <!----------------- Header ------------------->
+        <div class="header d-flex justify-content-start align-items-center text-light">
+            <div class="container">
+                <h1 class="fw-bold fst-italic">Great Laptops</h1>
+                <h1 class="fw-bold fst-italic">Low Prices!</h1>
+            </div>    
+        </div>
+        <!----------------- Carousel Header BestSeller ------------------->
+        <div class="container p-4 text-dark fw-bolder" style="background-color: #1a345a;">
+            <div class="w-100">
+                <div class="card-header fw-bolder d-flex justify-content-between align-items-center">
+                    <h2 class="fw-bolder text-light" style="font-family: 'Poppins',sans-serif;">BestSeller</h2>
+                    <a href="bestSeller.html" class="btn btn-outline-warning text-light">SEE ALL</a>
+                </div>
+            </div>  
+        </div>
+        <!----------------- Carousel ------------------->
+        <div class="container">
+            <div id="carouselExampleIndicators" class="carousel slide"> 
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="cards-wrapper">
+                            <div class="card">
+                                <a href="bestprod1.html"><img src="img/product-item/bestseller1.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                    <h5 class="card-text">Machcreator-A i5 (8GB)</h5>
+                                    <div class="card-footer bg-transparent text-start p-0 border-white d-block justify-content-between">
+                                        <p class="fw-bolder text-danger">
+                                            &#8369; 24,500.00 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <a href="bestprod2.html"><img src="img/product-item/bestseller2.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                    <h5 class="card-text">IPASON P3 Notebook i3 (1TB)</h5>
+                                    <div class="card-footer bg-transparent text-start p-0 border-white d-block justify-content-between">
+                                        <p class="fw-bolder text-danger">
+                                            &#8369; 23,995.00
+                                        </p>  
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <a href="bestprod3.html"><img src="img/product-item/bestseller3.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                    <h5 class="card-text">Gigabyte G5 KF-E3PH333SH</h5>
+                                    <div class="card-footer bg-transparent text-start p-0 border-white d-block justify-content-between">
+                                        <p class="fw-bolder text-danger">
+                                            &#8369; 56,995.00
+                                        </p>  
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <a href="bestprod4.html"><img src="img/product-item/bestseller4.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                    <h5 class="card-text">Lenovo Ideapad 3 15IAU7</h5>
+                                    <div class="card-footer bg-transparent text-start p-0 border-white d-block justify-content-between">
+                                        <p class="fw-bolder text-danger">
+                                            &#8369; 24,995.00
+                                        </p> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="cards-wrapper">
+                            <div class="card">
+                                <img src="img/product-item/bestseller5.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-text">Machcreator-A i5 (16gb)</h5>
+                                    <div class="card-footer bg-transparent text-start p-0 border-white d-block justify-content-between">
+                                        <p class="fw-bolder text-danger">
+                                            &#8369; 28,995.00 
+                                        </p> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <a href="bestprod6.html"><img src="img/product-item/bestseller6.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                    <h5 class="card-text">Machenike F117-7 i5</h5>
+                                    <div class="card-footer bg-transparent text-start p-0 border-white d-block justify-content-between">
+                                        <p class="fw-bolder text-danger">
+                                            &#8369; 39,995.00
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <a href="bestprod5.html"><img src="img/product-item/bestseller7.jpg" class="card-img-top" alt="..."></a>
+                                <div class="card-body">
+                                    <h5 class="card-text">KUU A4 Laptop</h5>
+                                    <div class="card-footer bg-transparent text-start p-0 border-white d-block justify-content-between">
+                                        <p class="fw-bolder text-danger">
+                                            &#8369; 26,995.00
+                                        </p> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="img/product-item/bestseller8.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-text">Asus Vivobook</h5>
+                                    <div class="card-footer bg-transparent text-start p-0 border-white d-block justify-content-between">
+                                        <p class="fw-bolder text-danger">
+                                            &#8369; 32,995.00
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- End Carousel BestSeller -->
+        <!----------------- Carousel Header Gaming Laptop ------------------->
+        <div class="container p-4 text-dark fw-bolder" style="background-color: #1a345a;">
+            <div class="w-100">
+                <div class="card-header fw-bolder d-flex justify-content-between align-items-center">
+                    <h2 class="fw-bolder text-light" style="font-family: 'Poppins',sans-serif;">Gaming Laptops</h2>
+                    <button class="btn btn-outline-warning text-light">SEE ALL</button>
+                </div>
+            </div>  
+        </div>
+        <!----------------- Carousel ------------------->
+        <div class="container">
+            <div id="carouselGaming" class="carousel slide"> 
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="cards-wrapper">
+                            <div class="card">
+                                <img src="img/gaminglaptop/gaming1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-text">Acer Nitro 5 AN515-58-78A6</h5>
+                                    <div class="card-footer bg-transparent text-start p-0 border-white d-block justify-content-between">
+                                        <p class="fw-bolder text-danger">
+                                            &#8369; 64,995.00 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="img/gaminglaptop/gaming2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-text">Aorus 15 9KF-E3PH583SH</h5>
+                                    <div class="card-footer bg-transparent text-start p-0 border-white d-block justify-content-between">
+                                        <p class="fw-bolder text-danger">
+                                            &#8369; 73,000.00
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="img/gaminglaptop/gaming3.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-text">ASUS TUF GAMING F15 FX506HC-HN111W</h5>
+                                    <div class="card-footer bg-transparent text-start p-0 border-white d-block justify-content-between">
+                                        <p class="fw-bolder text-danger">
+                                            &#8369; 48,995.00
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="img/gaminglaptop/gaming4.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-text">Gigabyte G5 KF-E3PH333SH</h5>
+                                    <div class="card-footer bg-transparent text-start p-0 border-white d-block justify-content-between">
+                                        <p class="fw-bolder text-danger">
+                                            &#8369; 56,995.00
+                                        </p> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="cards-wrapper">
+                            <div class="card">
+                                <img src="img/gaminglaptop/gaming5.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-text">Gigabyte G5 MF5-52PH383SH</h5>
+                                    <div class="card-footer bg-transparent text-start p-0 border-white d-block justify-content-between">
+                                        <p class="fw-bolder text-danger">
+                                            &#8369; 52,495.00 
+                                        </p> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="img/gaminglaptop/gaming6.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-text">HP NB Victus Gaming Laptop 15-FB1019AX</h5>
+                                    <div class="card-footer bg-transparent text-start p-0 border-white d-block justify-content-between">
+                                        <p class="fw-bolder text-danger">
+                                            &#8369; 39,995.00
+                                        </p> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="img/product-item/bestseller7.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-text">KUU A4 Laptop</h5>
+                                    <div class="card-footer bg-transparent text-start p-0 border-white d-block justify-content-between">
+                                        <p class="fw-bolder text-danger">
+                                            &#8369; 26,995.00
+                                        </p>  
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="img/product-item/bestseller8.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-text">Asus Vivobook</h5>
+                                    <div class="card-footer bg-transparent text-start p-0 border-white d-block justify-content-between">
+                                        <p class="fw-bolder text-danger">
+                                            &#8369; 32,995.00
+                                        </p> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselGaming" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselGaming" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- End Carousel Gaming Laptop -->
+        <!----------------- Carousel Header Premium Laptops ------------------->
+        <div class="container p-4 text-dark fw-bolder" style="background-color: #1a345a;">
+            <div class="w-100">
+                <div class="card-header fw-bolder d-flex justify-content-between align-items-center">
+                    <h2 class="fw-bolder text-light" style="font-family: 'Poppins',sans-serif;">Premium Laptops</h2>
+                    <button class="btn btn-outline-warning text-light">SEE ALL</button>
+                </div>
+            </div>  
+        </div>
+        <!----------------- Carousel ------------------->
+        <div class="container">
+            <div id="carouselPremium" class="carousel slide"> 
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="cards-wrapper">
+                            <div class="card">
+                                <img src="img/premiumlaptop/premium1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-text">Asus Zenbook Flip S13 UP5302ZA-LX087WS</h5>
+                                    <div class="card-footer bg-transparent text-start p-0 border-white d-block justify-content-between">
+                                        <p class="fw-bolder text-danger">
+                                            &#8369; 84,995.00 
+                                        </p>  
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="img/premiumlaptop/premium2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-text">Asus Zenbook Pro 14 Duo UX8402VV-P1051WS</h5>
+                                    <div class="card-footer bg-transparent text-start p-0 border-white d-block justify-content-between">
+                                        <p class="fw-bolder text-danger">
+                                            &#8369; 114,995.00
+                                        </p> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="img/premiumlaptop/premium3.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-text">Asus Zenbook UX3405MA-PP677WS</h5>
+                                    <div class="card-footer bg-transparent text-start p-0 border-white d-block justify-content-between">
+                                        <p class="fw-bolder text-danger">
+                                            &#8369; 64,995.00
+                                        </p>  
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="img/premiumlaptop/premium4.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-text">Lenovo Yoga Slim 7 ProX 14IAH7 82TK001BPH</h5>
+                                    <div class="card-footer bg-transparent text-start p-0 border-white d-block justify-content-between">
+                                        <p class="fw-bolder text-danger">
+                                            &#8369; 71,995.00
+                                        </p>  
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="cards-wrapper">
+                            <div class="card">
+                                <img src="img/premiumlaptop/premium5.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-text">Samsung Galaxy Pro 950XDB-KE7</h5>
+                                    <div class="card-footer bg-transparent text-start p-0 border-white d-block justify-content-between">
+                                        <p class="fw-bolder text-danger">
+                                            &#8369; 49,999.00 
+                                        </p>  
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="img/product-item/bestseller6.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-text">Machenike F117-7 i5</h5>
+                                    <div class="card-footer bg-transparent text-start p-0 border-white d-block justify-content-between">
+                                        <p class="fw-bolder text-danger">
+                                            &#8369; 39,995.00
+                                        </p> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="img/product-item/bestseller7.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-text">KUU A4 Laptop</h5>
+                                    <div class="card-footer bg-transparent text-start p-0 border-white d-block justify-content-between">
+                                        <p class="fw-bolder text-danger">
+                                            &#8369; 26,995.00
+                                        </p>  
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="img/product-item/bestseller8.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-text">Asus Vivobook</h5>
+                                    <div class="card-footer bg-transparent text-start p-0 border-white d-block justify-content-between">
+                                        <p class="fw-bolder text-danger">
+                                            &#8369; 32,995.00
+                                        </p>  
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselPremium" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselPremium" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- End Carousel Premium Laptops -->
+        <!----------------- Carousel Header Mainstream Laptops ------------------->
+        <div class="container p-4 text-dark fw-bolder" style="background-color: #1a345a;">
+            <div class="w-100">
+                <div class="card-header fw-bolder d-flex justify-content-between align-items-center">
+                    <h2 class="fw-bolder text-light" style="font-family: 'Poppins',sans-serif;">Mainstream Laptops</h2>
+                    <button class="btn btn-outline-warning text-light">SEE ALL</button>
+                </div>
+            </div>  
+        </div>
+        <!----------------- Carousel ------------------->
+        <div class="container">
+            <div id="carouselMainstream" class="carousel slide"> 
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="cards-wrapper">
+                            <div class="card">
+                                <img src="img/mainstream/mainstream1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-text">Acer Aspire Lite AL14-31P-35XW</h5>
+                                    <div class="card-footer bg-transparent text-start p-0 border-white d-block justify-content-between">
+                                        <p class="fw-bolder text-danger">
+                                            &#8369; 24,500.00 
+                                        </p>  
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="img/mainstream/mainstream2.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-text">Acer Aspire Lite AL15-51M-773W</h5>
+                                    <div class="card-footer bg-transparent text-start p-0 border-white d-block justify-content-between">
+                                        <p class="fw-bolder text-danger">
+                                            &#8369; 37,995.00
+                                        </p>  
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="img/mainstream/mainstream3.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-text">Acer Aspire Vero AV15-53P-58T2</h5>
+                                    <div class="card-footer bg-transparent text-start p-0 border-white d-block justify-content-between">
+                                        <p class="fw-bolder text-danger">
+                                            &#8369; 38,995.00
+                                        </p> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="img/mainstream/mainstream4.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-text">Acer Travelmate P2 TMP214-53-3891</h5>
+                                    <div class="card-footer bg-transparent text-start p-0 border-white d-block justify-content-between">
+                                        <p class="fw-bolder text-danger">
+                                            &#8369; 23,995.00
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="cards-wrapper">
+                            <div class="card">
+                                <img src="img/mainstream/mainstream5.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-text">Acer Travelmate P2 TMP214-53G-5040</h5>
+                                    <div class="card-footer bg-transparent text-start p-0 border-white d-block justify-content-between">
+                                        <p class="fw-bolder text-danger">
+                                            &#8369; 31,995.00 
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="img/mainstream/mainstream6.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-text">Asus Vivobook X1605ZA-MB065WS</h5>
+                                    <div class="card-footer bg-transparent text-start p-0 border-white d-block justify-content-between">
+                                        <p class="fw-bolder text-danger">
+                                            &#8369; 32,995.00
+                                        </p>  
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="img/product-item/bestseller7.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-text">KUU A4 Laptop</h5>
+                                    <div class="card-footer bg-transparent text-start p-0 border-white d-block justify-content-between">
+                                        <p class="fw-bolder text-danger">
+                                            &#8369; 26,995.00
+                                        </p> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="img/product-item/bestseller8.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-text">Asus Vivobook</h5>
+                                    <div class="card-footer bg-transparent text-start p-0 border-white d-block justify-content-between">
+                                        <p class="fw-bolder text-danger">
+                                            &#8369; 32,995.00
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselMainstream" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselMainstream" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- End Carousel Mainstream Laptops -->
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Footer Start -->
+<footer class="bg-dark text-white pt-5 pb-4">
+
+    <div class="container text-center text-md-left">
+
+        <div class="row text-center text-md-left">
+
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 text-start">
+                <img src="img/logo.png" alt="" width="250" height="125" style="background-color: white;" class="rounded-pill">
+                <div class="m-4">
+                    <img src="img/footer1.png" alt="" width="200px">
+                </div>
+                <div class="m-4 ">
+                    <img src="img/footer2.png" alt="" width="200px">
+                </div>
+                <div class="m-4 ">
+                    <img src="img/footer3.png" alt="" width="200px">
+                </div>    
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3 text-start">
+                <h5 class="text-uppercase mb-4 font-weight-bold" style="color: #ff7200;">
+                    Products
+                </h5>
+                <p>
+                    <a href="#" class="text-white" style="text-decoration: none;">BestSeller</a>
+                </p>
+                <p>
+                    <a href="#" class="text-white" style="text-decoration: none;">Gaming Laptops</a>
+                </p>
+                <p>
+                    <a href="#" class="text-white" style="text-decoration: none;">Premium Laptops</a>
+                </p>
+                <p>
+                    <a href="#" class="text-white" style="text-decoration: none;">Mainstream Laptops</a>
+                </p>
+                <p>
+                    <a href="#" class="text-white" style="text-decoration: none;">Accessories & Peripherals</a>
+                </p>
+                <p>
+                    <a href="#" class="text-white" style="text-decoration: none;">Digital Software</a>
+                </p>
+                <p>
+                    <a href="#" class="text-white" style="text-decoration: none;">Display Units</a>
+                </p>
+                <p>
+                    <a href="#" class="text-white" style="text-decoration: none;">Printers</a>
+                </p>
+            </div>
+            
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3 text-start">
+                <h5 class="text-uppercase mb-4 font-weight-bold" style=" color:#ff7200;">
+                    Links
+                </h5>
+                <p>
+                    <a href="#" class="text-white" style="text-decoration: none;">FAQ</a>
+                </p>
+                <p>
+                    <a href="#" class="text-white" style="text-decoration: none;">Become a Partner</a>
+                </p>
+                <p>
+                    <a href="#" class="text-white" style="text-decoration: none;">Shipping Requirements</a>
+                </p>
+                
+            </div>
+
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 text-start">
+                <h5 class="text-uppercase mb-4 font-weight-bold" style=" color: #ff7200;">
+                    Contacts
+                </h5>
+                <p class="fst-italic">
+                    <i class="fa-solid fa-house"></i> Carmen, Cebu
+                </p>
+                <p class="fst-italic">
+                    <i class="fa-solid fa-envelope"></i> rce@gmail.com
+                </p>
+                <p class="fst-italic">
+                    <i class="fa-solid fa-phone"></i> +63 918-693-4954
+                </p>
+                <p class="fst-italic">
+                    <i class="fa-solid fa-fax"></i> +01 335 633 77
+                </p>
+            </div>
+
+        </div>
+        <hr class="mb-4">
+        <div class="row align-items-center text-start">
+
+            <div class="col-md-7 col-lg-8">
+                <p class="fst-italic">
+                    Copyright @2024 All Rights Reserved
+                </p>
+            </div>
+            <div class="col-md-5 col-lg-4">
+                <div class="text-center textmd-right">
+                    <ul class="list-unstyled list-inline text-end">
+                        <li class="list-inline-item">
+                            <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fa-brands fa-facebook"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fa-brands fa-tiktok"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#" class="btn-floating btn-sm text-white" style="font-size: 23px;"><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+
+
+    </div>
+
+</footer>
+<!-- Footer End -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

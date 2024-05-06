@@ -1,0 +1,57 @@
+
+.header{
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.9)),url(img/header.jpg);
+    height: min(500px, 50vw);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 93px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.container h1{
+    text-shadow: 1px 1px 8px;
+    font-size:50px;
+}
+
+.card-header h2{
+    text-shadow: 5px 7px 5px rgba(0,0,0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cards-wrapper{
+    display: flex;
+}
+.card{
+    width: calc(100%/1);
+    border: none;
+}
+
+.header-1{
+    background: linear-gradient(rgba(0,0,0,.0),rgba(0,0,0,.0)),url(img/header2.jpg);
+    height: min(500px, 50vw);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 93px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+#header{
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.9)),url(img/background5.jpg);
+    height: min(400px, 50vw);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 90px;
+    background-attachment: fixed;
+}
+
+#header h1{
+    font-size: 50px;
+}
+
+.card:hover{
+    transform:  scale(1.1);
+}
